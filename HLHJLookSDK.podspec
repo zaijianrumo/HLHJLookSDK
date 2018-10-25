@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zaijianrumo/HLHJLookSDK.git", :tag =>  s.version}
 
   s.source_files            = "HLHJFramework/HLHJLookSDK.framework/Headers/*.{h,m}" 
-  s.ios.vendored_frameworks = "HLHJFramework/HLHJLookSDK.framework"
+  s.ios.vendored_frameworks = "HLHJFramework/HLHJLookSDK.framework","HLHJFramework/IJKMediaFramework.framework"
   s.resources               = "HLHJFramework/HLHJNewLiveResource.bundle"
   s.frameworks = 'VideoToolbox','UIKit','QuartzCore','OpenGLES','MobileCoreServices','MediaPlayer','CoreVideo','CoreMedia','CoreGraphics','AVFoundation','AudioToolbox'
 
