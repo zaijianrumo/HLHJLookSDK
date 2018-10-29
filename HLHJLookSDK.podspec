@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLookSDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "看看新闻"
   s.description  = <<-DESC
                    "看看新闻"
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zaijianrumo/HLHJLookSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
-  s.source       = { :git => "https://github.com/zaijianrumo/HLHJLookSDK.git", :tag =>  s.version}
+  s.source       = { :git => "https://github.com/zaijianrumo/HLHJLookSDK.git", :tag => s.version}
 
-  s.source_files            = "HLHJFramework/HLHJLookSDK.framework/Headers/*.{h,m}" 
-  s.ios.vendored_frameworks = "HLHJFramework/HLHJLookSDK.framework","HLHJFramework/IJKMediaFramework.framework"
-  s.resources               = "HLHJFramework/HLHJNewLiveResource.bundle"
+  s.source_files            = 'HLHJFramework/HLHJLookSDK.framework/Headers/*.{h,m}'
+  s.ios.vendored_frameworks = 'HLHJFramework/HLHJLookSDK.framework','HLHJFramework/IJKMediaFramework.framework'
+  s.resources               = 'HLHJFramework/HLHJNewLiveResource.bundle'
   s.frameworks = 'VideoToolbox','UIKit','QuartzCore','OpenGLES','MobileCoreServices','MediaPlayer','CoreVideo','CoreMedia','CoreGraphics','AVFoundation','AudioToolbox'
 
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}

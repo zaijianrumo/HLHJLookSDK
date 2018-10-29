@@ -1,6 +1,0 @@
-framework module HLHJLookSDK {
-  umbrella header "HLHJLookSDK.h"
-
-  export *
-  module * { export * }
-}
