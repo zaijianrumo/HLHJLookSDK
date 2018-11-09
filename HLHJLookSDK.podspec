@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLookSDK"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "看看新闻"
   s.description  = <<-DESC
                    "看看新闻"
@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
   s.dependency            "WMPageController"
   s.dependency            "BarrageRenderer"
   s.dependency            "DZNEmptyDataSet"
-  s.dependency            "ZFPlayer", "~> 3.0.7"
-  s.dependency            "ZFPlayer/ControlView", "~> 3.0.7"
-  s.dependency            "ZFPlayer/AVPlayer", "~> 3.0.7"
+  s.dependency            "ZFPlayer", "3.1.8"
+  s.dependency            "ZFPlayer/ControlView", "3.1.8"
+  s.dependency            "ZFPlayer/AVPlayer", "3.1.8"
   s.dependency            "TMUserCenter"
   
 
