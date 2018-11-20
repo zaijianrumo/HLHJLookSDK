@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLookSDK"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "看看新闻"
   s.description  = <<-DESC
                    "看看新闻"
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.source_files            = 'HLHJFramework/HLHJLookSDK.framework/Headers/*.{h,m}'
   s.ios.vendored_frameworks = 'HLHJFramework/HLHJLookSDK.framework','HLHJFramework/IJKMediaFramework.framework'
   s.resources               = 'HLHJFramework/HLHJNewLiveResource.bundle'
+  
   s.frameworks = 'VideoToolbox','UIKit','QuartzCore','OpenGLES','MobileCoreServices','MediaPlayer','CoreVideo','CoreMedia','CoreGraphics','AVFoundation','AudioToolbox'
 
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}
