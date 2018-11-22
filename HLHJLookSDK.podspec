@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLookSDK"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "看看新闻"
   s.description  = <<-DESC
                    "看看新闻"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zaijianrumo/HLHJLookSDK.git", :tag => s.version}
 
   s.source_files            = 'HLHJFramework/HLHJLookSDK.framework/Headers/*.{h,m}'
-  s.ios.vendored_frameworks = 'HLHJFramework/HLHJLookSDK.framework','HLHJFramework/IJKMediaFramework.framework'
+  s.ios.vendored_frameworks = 'HLHJFramework/HLHJLookSDK.framework'
   s.resources               = 'HLHJFramework/HLHJNewLiveResource.bundle'
   
   s.frameworks = 'VideoToolbox','UIKit','QuartzCore','OpenGLES','MobileCoreServices','MediaPlayer','CoreVideo','CoreMedia','CoreGraphics','AVFoundation','AudioToolbox'
@@ -41,6 +41,7 @@ Pod::Spec.new do |s|
   s.dependency            "ZFPlayer/ControlView", "3.1.8"
   s.dependency            "ZFPlayer/AVPlayer", "3.1.8"
   s.dependency            "TMUserCenter"
+  s.dependency            "IJKMediaFramework"
   
 
 end
