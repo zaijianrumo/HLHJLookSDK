@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJLookSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "看看新闻"
   s.description  = <<-DESC
                    "看看新闻"
