@@ -14,7 +14,11 @@
 		</data>
 		<key>HRMainViewController.nib</key>
 		<data>
-		5kdnk4dSKmjPW0xmrMVOmVVffwY=
+		tZQicM+2SHb/yejbrKlw0A0XtOg=
+		</data>
+		<key>Headers/HLHJLookLiveListController.h</key>
+		<data>
+		SVWzaB2nYzIe7Cs17HEC/usmn8c=
 		</data>
 		<key>Headers/HLHJNewsSDK.h</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZDzI7HEzAJBeE+V3qFdSMrpguxA=
+		qWocmoU85cFowGCmRestQoyEtmk=
 		</data>
 		<key>SetI001.bundle/SetI001CustomPickerView.nib</key>
 		<data>
@@ -1662,11 +1666,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5kdnk4dSKmjPW0xmrMVOmVVffwY=
+			tZQicM+2SHb/yejbrKlw0A0XtOg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aSTLqKK9HzenM1Fevqxd5jF7rB4LdYRERKsu4EQnlT8=
+			vqxLXl7EMPuwjNmHNwsMovi/t+tbQGgScYiQgll1Tfs=
+			</data>
+		</dict>
+		<key>Headers/HLHJLookLiveListController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SVWzaB2nYzIe7Cs17HEC/usmn8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			/7P/EaYLZV46niKIyimPSOmpjjf938tBdAaNVWonkLc=
 			</data>
 		</dict>
 		<key>Headers/HLHJNewsSDK.h</key>
